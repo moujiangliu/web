@@ -1,0 +1,8 @@
+2020-12-05 00:23:36,419 INFO [WebAutoTest] [logger.py (<module>:102)] - 信息
+2020-12-05 00:23:36,420 WARNING [WebAutoTest] [logger.py (<module>:103)] - 警告
+2020-12-05 00:23:36,420 ERROR [WebAutoTest] [logger.py (<module>:104)] - 错误信息
+2020-12-05 00:23:36,420 CRITICAL [WebAutoTest] [logger.py (<module>:105)] - 致命的
+2020-12-05 00:23:49,109 INFO [WebAutoTest] [logger.py (<module>:102)] - 信息
+2020-12-05 00:23:49,109 WARNING [WebAutoTest] [logger.py (<module>:103)] - 警告
+2020-12-05 00:23:49,109 ERROR [WebAutoTest] [logger.py (<module>:104)] - 错误信息
+2020-12-05 00:23:49,109 CRITICAL [WebAutoTest] [logger.py (<module>:105)] - 致命的
