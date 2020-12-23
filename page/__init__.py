@@ -4,7 +4,7 @@
 # 项目的url
 from selenium.webdriver.common.by import By
 
-url = 'http://121.42.15.146:9090/mtx/'
+url = 'http://192.168.56.101/mtx/'
 
 '''以下是登录页面的配置信息'''
 login_link = By.CSS_SELECTOR, '.menu-hd>a:nth-child(3)'
@@ -33,7 +33,7 @@ order_click_pay = By.CSS_SELECTOR, 'button.separate-submit'
 order_goods_to_pay = By.CSS_SELECTOR, '.payment-list>li:nth-child(1)'
 order_click_submit = By.XPATH, '//button[text()="提交订单"]'
 
-By.TAG_NAME, 'ir'
+
 
 
 
