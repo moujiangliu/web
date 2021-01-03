@@ -1,8 +1,101 @@
-2020-12-05 00:23:36,419 INFO [WebAutoTest] [logger.py (<module>:102)] - 信息
-2020-12-05 00:23:36,420 WARNING [WebAutoTest] [logger.py (<module>:103)] - 警告
-2020-12-05 00:23:36,420 ERROR [WebAutoTest] [logger.py (<module>:104)] - 错误信息
-2020-12-05 00:23:36,420 CRITICAL [WebAutoTest] [logger.py (<module>:105)] - 致命的
-2020-12-05 00:23:49,109 INFO [WebAutoTest] [logger.py (<module>:102)] - 信息
-2020-12-05 00:23:49,109 WARNING [WebAutoTest] [logger.py (<module>:103)] - 警告
-2020-12-05 00:23:49,109 ERROR [WebAutoTest] [logger.py (<module>:104)] - 错误信息
-2020-12-05 00:23:49,109 CRITICAL [WebAutoTest] [logger.py (<module>:105)] - 致命的
+2020-12-23 22:02:23,467 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="d40f2b4686a110a776dbbbb2c3c8b54d")>
+2020-12-23 22:02:23,478 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-12-23 22:02:23,478 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:20s
+2020-12-23 22:03:06,163 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,输入值是:moujiang
+2020-12-23 22:03:06,165 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:03:06,312 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,输入值是:moujiang
+2020-12-23 22:03:06,312 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:03:06,453 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-12-23 22:03:06,453 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//button[text()="登录"]')元素,最多等待:20s
+2020-12-23 22:03:09,549 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="d40f2b4686a110a776dbbbb2c3c8b54d")>
+2020-12-23 22:03:09,549 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('css selector', '#search-input')元素,输入值是:雪纺连衣裙
+2020-12-23 22:03:09,549 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '#search-input')元素,最多等待:30s
+2020-12-23 22:03:09,609 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '#ai-topsearch')元素
+2020-12-23 22:03:09,610 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '#ai-topsearch')元素,最多等待:20s
+2020-12-23 22:03:52,191 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待:30s
+2020-12-23 22:03:52,200 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+2020-12-23 22:03:52,200 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待:20s
+2020-12-23 22:03:52,309 INFO [WebAutoTest] [base_base.py (base_switch_to_window:54)] - 开始切换窗口
+2020-12-23 22:03:52,390 INFO [WebAutoTest] [base_base.py (base_switch_to_window:54)] - 开始切换窗口
+2020-12-23 22:04:34,786 INFO [WebAutoTest] [base_base.py (base_switch_to_window:57)] - 窗口切换成功
+2020-12-23 22:04:34,786 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
+2020-12-23 22:04:34,787 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'li[data-value="粉色"]')元素,最多等待:20s
+2020-12-23 22:04:37,838 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'li[data-value="M"]')元素
+2020-12-23 22:04:37,838 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'li[data-value="M"]')元素,最多等待:20s
+2020-12-23 22:04:37,872 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'button[title="加入购物车"]')元素
+2020-12-23 22:04:37,873 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'button[title="加入购物车"]')元素,最多等待:20s
+2020-12-23 22:04:39,938 INFO [WebAutoTest] [base_base.py (base_page_source:110)] - 获取源码
+2020-12-23 22:04:39,989 INFO [WebAutoTest] [base_base.py (base_get_image:72)] - 开始截图=======>
+2020-12-23 22:04:40,356 INFO [WebAutoTest] [base_base.py (base_click_index:104)] - 点击回到首页
+2020-12-23 22:04:40,356 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-12-23 22:04:40,356 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待:20s
+2020-12-23 22:04:41,404 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '(//*[text()="购物车"])[2]')元素
+2020-12-23 22:04:41,404 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '(//*[text()="购物车"])[2]')元素,最多等待:20s
+2020-12-23 22:05:01,589 INFO [WebAutoTest] [base_base.py (base_get_image:72)] - 开始截图=======>
+2020-12-23 22:05:01,960 INFO [WebAutoTest] [base_base.py (base_click_index:104)] - 点击回到首页
+2020-12-23 22:05:01,960 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-12-23 22:05:01,960 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待:20s
+2020-12-23 22:05:53,717 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="efc0ed7242fe3092014184afa076f5f4")>
+2020-12-23 22:05:53,718 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-12-23 22:05:53,719 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:20s
+2020-12-23 22:06:36,305 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,输入值是:moujiang
+2020-12-23 22:06:36,305 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:06:36,487 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,输入值是:moujiang1
+2020-12-23 22:06:36,487 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:06:36,649 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-12-23 22:06:36,650 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//button[text()="登录"]')元素,最多等待:20s
+2020-12-23 22:06:41,741 INFO [WebAutoTest] [base_base.py (base_if_is_exist:93)] - 判断('css selector', '.menu-hd>a:nth-child(3)')元素是否存在
+2020-12-23 22:06:41,741 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:2s
+2020-12-23 22:06:41,748 INFO [WebAutoTest] [base_base.py (base_if_is_exist:95)] - ('css selector', '.menu-hd>a:nth-child(3)')元素是存在的
+2020-12-23 22:06:41,752 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-12-23 22:06:41,753 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:20s
+2020-12-23 22:07:24,318 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,输入值是:beihe
+2020-12-23 22:07:24,318 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:07:24,429 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,输入值是:beihe
+2020-12-23 22:07:24,430 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:07:24,585 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-12-23 22:07:24,586 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//button[text()="登录"]')元素,最多等待:20s
+2020-12-23 22:07:29,677 INFO [WebAutoTest] [base_base.py (base_if_is_exist:93)] - 判断('css selector', '.menu-hd>a:nth-child(3)')元素是否存在
+2020-12-23 22:07:29,677 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:2s
+2020-12-23 22:07:29,685 INFO [WebAutoTest] [base_base.py (base_if_is_exist:95)] - ('css selector', '.menu-hd>a:nth-child(3)')元素是存在的
+2020-12-23 22:07:29,687 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-12-23 22:07:29,687 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:20s
+2020-12-23 22:08:12,151 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,输入值是:moujiang1
+2020-12-23 22:08:12,151 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:08:12,240 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,输入值是:moujiang1
+2020-12-23 22:08:12,240 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:08:12,327 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-12-23 22:08:12,327 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//button[text()="登录"]')元素,最多等待:20s
+2020-12-23 22:08:17,389 INFO [WebAutoTest] [base_base.py (base_if_is_exist:93)] - 判断('css selector', '.menu-hd>a:nth-child(3)')元素是否存在
+2020-12-23 22:08:17,389 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:2s
+2020-12-23 22:08:17,397 INFO [WebAutoTest] [base_base.py (base_if_is_exist:95)] - ('css selector', '.menu-hd>a:nth-child(3)')元素是存在的
+2020-12-23 22:09:07,791 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="04d9f3f71ac05f686b671466ef9db872")>
+2020-12-23 22:09:07,791 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '.menu-hd>a:nth-child(3)')元素
+2020-12-23 22:09:07,791 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '.menu-hd>a:nth-child(3)')元素,最多等待:20s
+2020-12-23 22:09:50,235 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,输入值是:moujiang
+2020-12-23 22:09:50,235 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录账号"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:09:50,338 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,输入值是:moujiang
+2020-12-23 22:09:50,338 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//label[text()="登录密码"]/following-sibling::input')元素,最多等待:30s
+2020-12-23 22:09:50,438 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//button[text()="登录"]')元素
+2020-12-23 22:09:50,438 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//button[text()="登录"]')元素,最多等待:20s
+2020-12-23 22:09:55,488 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="04d9f3f71ac05f686b671466ef9db872")>
+2020-12-23 22:09:55,488 INFO [WebAutoTest] [base_base.py (__init__:15)] - 正在初始化获取driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="04d9f3f71ac05f686b671466ef9db872")>
+2020-12-23 22:09:55,488 INFO [WebAutoTest] [base_base.py (base_input:38)] - 正在输入:('css selector', '#search-input')元素,输入值是:雪纺连衣裙
+2020-12-23 22:09:55,488 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '#search-input')元素,最多等待:30s
+2020-12-23 22:09:55,557 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', '#ai-topsearch')元素
+2020-12-23 22:09:55,557 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', '#ai-topsearch')元素,最多等待:20s
+2020-12-23 22:10:38,043 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待:30s
+2020-12-23 22:10:38,054 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'ul.search-list>li:nth-child(1)')元素
+2020-12-23 22:10:38,054 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'ul.search-list>li:nth-child(1)')元素,最多等待:20s
+2020-12-23 22:10:38,142 INFO [WebAutoTest] [base_base.py (base_switch_to_window:54)] - 开始切换窗口
+2020-12-23 22:10:38,191 INFO [WebAutoTest] [base_base.py (base_switch_to_window:54)] - 开始切换窗口
+2020-12-23 22:11:20,790 INFO [WebAutoTest] [base_base.py (base_switch_to_window:57)] - 窗口切换成功
+2020-12-23 22:11:20,790 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'li[data-value="粉色"]')元素
+2020-12-23 22:11:20,790 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'li[data-value="粉色"]')元素,最多等待:20s
+2020-12-23 22:11:23,844 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'li[data-value="M"]')元素
+2020-12-23 22:11:23,844 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'li[data-value="M"]')元素,最多等待:20s
+2020-12-23 22:11:23,879 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('css selector', 'button[title="加入购物车"]')元素
+2020-12-23 22:11:23,879 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('css selector', 'button[title="加入购物车"]')元素,最多等待:20s
+2020-12-23 22:11:23,942 INFO [WebAutoTest] [base_base.py (base_click_index:104)] - 点击回到首页
+2020-12-23 22:11:23,943 INFO [WebAutoTest] [base_base.py (base_click:32)] - 正在点击:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素
+2020-12-23 22:11:23,943 INFO [WebAutoTest] [base_base.py (base_find_element:21)] - 正在查找元素:('xpath', '//*[@id="doc-topbar-collapse"]/ul/li[1]/a')元素,最多等待:20s

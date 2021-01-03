@@ -4,7 +4,7 @@
 # 项目的url
 from selenium.webdriver.common.by import By
 
-url = 'http://192.168.56.101/mtx/'
+url = 'http://121.42.15.146:9090/mtx/'
 
 '''以下是登录页面的配置信息'''
 login_link = By.CSS_SELECTOR, '.menu-hd>a:nth-child(3)'
