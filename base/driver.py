@@ -34,7 +34,8 @@ class GetDriver():
 if __name__ == '__main__':
     driver = GetDriver()
     driver.get_driver('chrome')
-    driver.close_driver()
+    driver.get_driver('chrome')
+    driver.get_driver('chrome')
 
 
 
